@@ -123,11 +123,11 @@ section {
 }
 
 .left {
-    margin-right: 200px;
+    margin-right: 160px;
 }
 
 .right {
-    margin-left: 200px;
+    margin-left: 160px;
 }
 
 .none {
@@ -190,14 +190,44 @@ section {
     }
 
     .left {
-        margin-right: 0px;
+        margin-right: 130px;
     }
 
     .right {
-        margin-left: 0px;
-    }
-    
+        margin-left: 130px;
+    }  
 }
+
+@media (max-width: 1260px) {
+    .left {
+        margin-right: 120px;
+    }
+
+    .right {
+        margin-left: 120px;
+    }  
+}
+
+@media (max-width: 1060px) {
+    .left {
+        margin-right: 100px;
+    }
+
+    .right {
+        margin-left: 100px;
+    }  
+}
+
+@media (max-width: 930px) {
+    .left {
+        margin-right: 50px;
+    }
+
+    .right {
+        margin-left: 50px;
+    }  
+}
+
 
 @media (max-width: 767px) {
     .carousel-inner .carousel-item > div {
@@ -206,6 +236,14 @@ section {
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
+	
+	.left {
+        margin-right: 0px;
+    }
+
+    .right {
+        margin-left: 0px;
+    } 
 }
 
 .carousel-inner .carousel-item.active,
