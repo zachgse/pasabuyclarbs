@@ -154,14 +154,15 @@ section {
 	background-color: white;
 	border: solid 1px white;
 	border-radius: 50%;
-	width: 60px;
+	width: 50px;
 	height: 50px;
     color: #6a100f;
     margin: 0px 10px;
 }
 
 .footer-icon{
-    font-size: 30px !important;
+    margin-top: 5px;
+    font-size: 25px !important;
 }
 
 .footer-text {
